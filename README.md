@@ -1,4 +1,9 @@
 # Lab1UnitTest
+Сахно Данило
+Студент групи ІПС-21,
+Київський національний університет імені Тараса Шевченка, 2025 рік.
+
+---
 
 ## Призначення програми
 Проєкт **Lab1UnitTest** реалізує базову систему керування бібліотекою.  
@@ -8,6 +13,22 @@
 ---
 
 ##  Структура проєкту
+Lab1UnitTest/
+├── src/ # Вихідні файли (реалізація класів)
+│ ├── Book.cpp
+│ ├── Loan.cpp
+│ ├── Library.cpp
+│ └── ...
+├── include/ # Заголовкові файли (*.h / *.hpp)
+│ ├── Book.h
+│ ├── Loan.h
+│ ├── Library.h
+│ └── ...
+├── tests/ # Тести (Google Test або власні)
+│ ├── LibraryTests.cpp
+│ └── LoanTests.cpp
+├── CMakeLists.txt # Конфігурація збірки
+└── README.md # Опис проєкту
 
 ---
 
@@ -27,6 +48,7 @@ TEST(LibraryTest, AddBookIncreasesCount) {
     lib.addBook(b);
     EXPECT_EQ(lib.getBooksCount(), 1);
 }
+
 У ході роботи над лабораторною студент відпрацював базові команди:
 
 git init
@@ -36,6 +58,4 @@ git branch feature/unit-tests
 git checkout feature/unit-tests
 git push -u origin feature/unit-tests
 git merge feature/unit-tests
-Сахно Данило
-Студент групи ІПС-21,
-Київський національний університет імені Тараса Шевченка, 2025 рік.
+
