@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/test/library_tests[1]_tests.cmake")
+  include("C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/test/library_tests[1]_tests.cmake")
+else()
+  add_test(library_tests_NOT_BUILT library_tests_NOT_BUILT)
+endif()

@@ -1,0 +1,117 @@
+{
+  "tests": 15,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "BookTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "AvailabilityAndToggle",
+          "file": "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\test\\tests.cpp",
+          "line": 31
+        },
+        {
+          "name": "TitleMatching",
+          "file": "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\test\\tests.cpp",
+          "line": 41
+        },
+        {
+          "name": "OldEditionCheck",
+          "file": "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\test\\tests.cpp",
+          "line": 49
+        }
+      ]
+    },
+    {
+      "name": "EBookTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "BasicFunctionality",
+          "file": "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\test\\tests.cpp",
+          "line": 56
+        }
+      ]
+    },
+    {
+      "name": "ReaderTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "BorrowDuplicatePrevention",
+          "file": "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\test\\tests.cpp",
+          "line": 69
+        },
+        {
+          "name": "ReturnBookSemantics",
+          "file": "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\test\\tests.cpp",
+          "line": 76
+        }
+      ]
+    },
+    {
+      "name": "LibraryTest",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "AddAndFindEntities",
+          "file": "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\test\\tests.cpp",
+          "line": 89
+        },
+        {
+          "name": "IssueBookSuccess",
+          "file": "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\test\\tests.cpp",
+          "line": 100
+        },
+        {
+          "name": "IssueBookMissingEntities",
+          "file": "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\test\\tests.cpp",
+          "line": 111
+        },
+        {
+          "name": "IssueBookNotAvailableOrDuplicate",
+          "file": "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\test\\tests.cpp",
+          "line": 122
+        },
+        {
+          "name": "ReturnBookSuccess",
+          "file": "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\test\\tests.cpp",
+          "line": 141
+        },
+        {
+          "name": "ReturnBookReaderDoesNotHave",
+          "file": "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\test\\tests.cpp",
+          "line": 153
+        }
+      ]
+    },
+    {
+      "name": "LoanTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "DaysLeftFuture",
+          "file": "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\test\\tests.cpp",
+          "line": 165
+        },
+        {
+          "name": "OverdueAndReturned",
+          "file": "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\test\\tests.cpp",
+          "line": 173
+        }
+      ]
+    },
+    {
+      "name": "LibraryUtilsTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "IssueBookToReader",
+          "file": "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\test\\tests.cpp",
+          "line": 183
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2021 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.26220 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\sasak\\AppData\\Local\\PowerToys\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.2.4\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.0.2+995a3dce4 for .NET Framework
+      Build started 10/11/2025 18:17:35.
+      
+      Project "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\4.2.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\4.2.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\4.2.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.72
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/4.2.0-rc2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/sasak/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/sasak/AppData/Local/PowerToys/"
+      - "C:/Users/sasak/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.4/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\sasak\\AppData\\Local\\PowerToys\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.2.4\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/sasak/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/sasak/AppData/Local/PowerToys/"
+      - "C:/Users/sasak/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.4/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/sasak/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/sasak/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/sasak/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/sasak/AppData/Local/PowerToys/lld-link.com"
+      - "C:/Users/sasak/AppData/Local/PowerToys/lld-link.exe"
+      - "C:/Users/sasak/AppData/Local/PowerToys/lld-link"
+      - "C:/Users/sasak/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/lld-link"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.4/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.4/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.4/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\sasak\\AppData\\Local\\PowerToys\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.2.4\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/sasak/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/sasak/AppData/Local/PowerToys/"
+      - "C:/Users/sasak/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.4/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\sasak\\AppData\\Local\\PowerToys\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.2.4\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/sasak/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/sasak/AppData/Local/PowerToys/"
+      - "C:/Users/sasak/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.4/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/sasak/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/sasak/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/sasak/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/sasak/AppData/Local/PowerToys/mt.com"
+      - "C:/Users/sasak/AppData/Local/PowerToys/mt.exe"
+      - "C:/Users/sasak/AppData/Local/PowerToys/mt"
+      - "C:/Users/sasak/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/mt.com"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/mt.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/mt"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.4/bin/mt.com"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.4/bin/mt.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.4/bin/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\sasak\\AppData\\Local\\PowerToys\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.2.4\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/sasak/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/sasak/AppData/Local/PowerToys/"
+      - "C:/Users/sasak/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.4/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\sasak\\AppData\\Local\\PowerToys\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.2.4\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:580 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:553 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/sasak/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/sasak/AppData/Local/PowerToys/"
+      - "C:/Users/sasak/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.4/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/LibrarySystem/bin/"
+      - "C:/Program Files (x86)/LibrarySystem/sbin/"
+      - "C:/Program Files (x86)/LibrarySystem/"
+    searched_directories:
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/sasak/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/sasak/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/sasak/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/sasak/AppData/Local/PowerToys/rc.com"
+      - "C:/Users/sasak/AppData/Local/PowerToys/rc.exe"
+      - "C:/Users/sasak/AppData/Local/PowerToys/rc"
+      - "C:/Users/sasak/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/rc.com"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/rc.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/rc"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.4/bin/rc.com"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.4/bin/rc.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.4/bin/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/LibrarySystem/bin/rc.com"
+      - "C:/Program Files (x86)/LibrarySystem/bin/rc.exe"
+      - "C:/Program Files (x86)/LibrarySystem/bin/rc"
+      - "C:/Program Files (x86)/LibrarySystem/sbin/rc.com"
+      - "C:/Program Files (x86)/LibrarySystem/sbin/rc.exe"
+      - "C:/Program Files (x86)/LibrarySystem/sbin/rc"
+      - "C:/Program Files (x86)/LibrarySystem/rc.com"
+      - "C:/Program Files (x86)/LibrarySystem/rc.exe"
+      - "C:/Program Files (x86)/LibrarySystem/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\sasak\\AppData\\Local\\PowerToys\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.2.4\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/LibrarySystem"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/LibrarySystem"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/CMakeScratch/TryCompile-9c7k06"
+      binary: "C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/CMakeScratch/TryCompile-9c7k06"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/CMakeScratch/TryCompile-9c7k06'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8994c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.0.2+995a3dce4 for .NET Framework
+        Build started 10/11/2025 18:17:36.
+        
+        Project "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9c7k06\\cmTC_8994c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9c7k06\\Debug\\".
+          Creating directory "cmTC_8994c.dir\\Debug\\cmTC_8994c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8994c.dir\\Debug\\cmTC_8994c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8994c.dir\\Debug\\cmTC_8994c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_8994c.dir\\Debug\\\\" /Fd"cmTC_8994c.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35717 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_8994c.dir\\Debug\\\\" /Fd"cmTC_8994c.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9c7k06\\Debug\\cmTC_8994c.exe" /INCREMENTAL /ILK:"cmTC_8994c.dir\\Debug\\cmTC_8994c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/CMakeScratch/TryCompile-9c7k06/Debug/cmTC_8994c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/CMakeScratch/TryCompile-9c7k06/Debug/cmTC_8994c.lib" /MACHINE:X64  /machine:x64 cmTC_8994c.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_8994c.vcxproj -> C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9c7k06\\Debug\\cmTC_8994c.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_8994c.dir\\Debug\\cmTC_8994c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8994c.dir\\Debug\\cmTC_8994c.tlog\\cmTC_8994c.lastbuildstate".
+        Done Building Project "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9c7k06\\cmTC_8994c.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.68
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35717.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindGit.cmake:111 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake:1884 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake:1619 (__FetchContent_populateSubbuild)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake:2155:EVAL:2 (__FetchContent_doPopulation)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake:2155 (cmake_language)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake:2394 (__FetchContent_Populate)"
+      - "CMakeLists.txt:25 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git.cmd"
+      - "git"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/sasak/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/sasak/AppData/Local/PowerToys/"
+      - "C:/Users/sasak/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.4/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/LibrarySystem/bin/"
+      - "C:/Program Files (x86)/LibrarySystem/sbin/"
+      - "C:/Program Files (x86)/LibrarySystem/"
+      - "C:/Users/sasak/AppData/Local/Atlassian/SourceTree/git_local/bin/"
+    searched_directories:
+      - "C:/Windows/System32/git.cmd.com"
+      - "C:/Windows/System32/git.cmd.exe"
+      - "C:/Windows/System32/git.cmd"
+      - "C:/Windows/git.cmd.com"
+      - "C:/Windows/git.cmd.exe"
+      - "C:/Windows/git.cmd"
+      - "C:/Windows/System32/wbem/git.cmd.com"
+      - "C:/Windows/System32/wbem/git.cmd.exe"
+      - "C:/Windows/System32/wbem/git.cmd"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd"
+      - "C:/Windows/System32/OpenSSH/git.cmd.com"
+      - "C:/Windows/System32/OpenSSH/git.cmd.exe"
+      - "C:/Windows/System32/OpenSSH/git.cmd"
+      - "C:/Program Files/Git/cmd/git.cmd.com"
+      - "C:/Program Files/Git/cmd/git.cmd.exe"
+      - "C:/Program Files/Git/cmd/git.cmd"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Launcher/git.cmd.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Launcher/git.cmd.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Launcher/git.cmd"
+      - "C:/Users/sasak/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Users/sasak/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Users/sasak/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "C:/Users/sasak/AppData/Local/PowerToys/git.cmd.com"
+      - "C:/Users/sasak/AppData/Local/PowerToys/git.cmd.exe"
+      - "C:/Users/sasak/AppData/Local/PowerToys/git.cmd"
+      - "C:/Users/sasak/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/git.cmd.com"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/git.cmd.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/git.cmd"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.4/bin/git.cmd.com"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.4/bin/git.cmd.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.4/bin/git.cmd"
+      - "C:/Program Files/bin/git.cmd.com"
+      - "C:/Program Files/bin/git.cmd.exe"
+      - "C:/Program Files/bin/git.cmd"
+      - "C:/Program Files/sbin/git.cmd.com"
+      - "C:/Program Files/sbin/git.cmd.exe"
+      - "C:/Program Files/sbin/git.cmd"
+      - "C:/Program Files/git.cmd.com"
+      - "C:/Program Files/git.cmd.exe"
+      - "C:/Program Files/git.cmd"
+      - "C:/Program Files (x86)/bin/git.cmd.com"
+      - "C:/Program Files (x86)/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/bin/git.cmd"
+      - "C:/Program Files (x86)/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/sbin/git.cmd"
+      - "C:/Program Files (x86)/git.cmd.com"
+      - "C:/Program Files (x86)/git.cmd.exe"
+      - "C:/Program Files (x86)/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files/CMake/sbin/git.cmd.com"
+      - "C:/Program Files/CMake/sbin/git.cmd.exe"
+      - "C:/Program Files/CMake/sbin/git.cmd"
+      - "C:/Program Files/CMake/git.cmd.com"
+      - "C:/Program Files/CMake/git.cmd.exe"
+      - "C:/Program Files/CMake/git.cmd"
+      - "C:/Program Files (x86)/LibrarySystem/bin/git.cmd.com"
+      - "C:/Program Files (x86)/LibrarySystem/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/LibrarySystem/bin/git.cmd"
+      - "C:/Program Files (x86)/LibrarySystem/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/LibrarySystem/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/LibrarySystem/sbin/git.cmd"
+      - "C:/Program Files (x86)/LibrarySystem/git.cmd.com"
+      - "C:/Program Files (x86)/LibrarySystem/git.cmd.exe"
+      - "C:/Program Files (x86)/LibrarySystem/git.cmd"
+      - "C:/Users/sasak/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
+      - "C:/Users/sasak/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
+      - "C:/Users/sasak/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
+      - "C:/Windows/System32/git.com"
+      - "C:/Windows/System32/git.exe"
+      - "C:/Windows/System32/git"
+      - "C:/Windows/git.com"
+      - "C:/Windows/git.exe"
+      - "C:/Windows/git"
+      - "C:/Windows/System32/wbem/git.com"
+      - "C:/Windows/System32/wbem/git.exe"
+      - "C:/Windows/System32/wbem/git"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git"
+      - "C:/Windows/System32/OpenSSH/git.com"
+      - "C:/Windows/System32/OpenSSH/git.exe"
+      - "C:/Windows/System32/OpenSSH/git"
+      - "C:/Program Files/Git/cmd/git.com"
+    found: "C:/Program Files/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\sasak\\AppData\\Local\\PowerToys\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.2.4\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/LibrarySystem"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/LibrarySystem"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\sasak\\AppData\\Local\\PowerToys\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.2.4\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/LibrarySystem"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/LibrarySystem"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.0.2+995a3dce4 for .NET Framework
+      Build started 10/11/2025 18:17:58.
+      
+      Project "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\4.2.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\4.2.0-rc2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\4.2.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.64
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/4.2.0-rc2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/sasak/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/sasak/AppData/Local/PowerToys/"
+      - "C:/Users/sasak/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.4/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/LibrarySystem/bin/"
+      - "C:/Program Files (x86)/LibrarySystem/sbin/"
+      - "C:/Program Files (x86)/LibrarySystem/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/sasak/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/sasak/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/sasak/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/sasak/AppData/Local/PowerToys/lld-link.com"
+      - "C:/Users/sasak/AppData/Local/PowerToys/lld-link.exe"
+      - "C:/Users/sasak/AppData/Local/PowerToys/lld-link"
+      - "C:/Users/sasak/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.2.4/bin/lld-link"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.4/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.4/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2025.2.4/bin/lld-link"
+      - "C:/Program Files/bin/lld-link.com"
+      - "C:/Program Files/bin/lld-link.exe"
+      - "C:/Program Files/bin/lld-link"
+      - "C:/Program Files/sbin/lld-link.com"
+      - "C:/Program Files/sbin/lld-link.exe"
+      - "C:/Program Files/sbin/lld-link"
+      - "C:/Program Files/lld-link.com"
+      - "C:/Program Files/lld-link.exe"
+      - "C:/Program Files/lld-link"
+      - "C:/Program Files (x86)/bin/lld-link.com"
+      - "C:/Program Files (x86)/bin/lld-link.exe"
+      - "C:/Program Files (x86)/bin/lld-link"
+      - "C:/Program Files (x86)/sbin/lld-link.com"
+      - "C:/Program Files (x86)/sbin/lld-link.exe"
+      - "C:/Program Files (x86)/sbin/lld-link"
+      - "C:/Program Files (x86)/lld-link.com"
+      - "C:/Program Files (x86)/lld-link.exe"
+      - "C:/Program Files (x86)/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/CMake/sbin/lld-link.com"
+      - "C:/Program Files/CMake/sbin/lld-link.exe"
+      - "C:/Program Files/CMake/sbin/lld-link"
+      - "C:/Program Files/CMake/lld-link.com"
+      - "C:/Program Files/CMake/lld-link.exe"
+      - "C:/Program Files/CMake/lld-link"
+      - "C:/Program Files (x86)/LibrarySystem/bin/lld-link.com"
+      - "C:/Program Files (x86)/LibrarySystem/bin/lld-link.exe"
+      - "C:/Program Files (x86)/LibrarySystem/bin/lld-link"
+      - "C:/Program Files (x86)/LibrarySystem/sbin/lld-link.com"
+      - "C:/Program Files (x86)/LibrarySystem/sbin/lld-link.exe"
+      - "C:/Program Files (x86)/LibrarySystem/sbin/lld-link"
+      - "C:/Program Files (x86)/LibrarySystem/lld-link.com"
+      - "C:/Program Files (x86)/LibrarySystem/lld-link.exe"
+      - "C:/Program Files (x86)/LibrarySystem/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\sasak\\AppData\\Local\\PowerToys\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.2.4\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/LibrarySystem"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/LibrarySystem"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/CMakeScratch/TryCompile-0u9c1c"
+      binary: "C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/CMakeScratch/TryCompile-0u9c1c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/CMakeScratch/TryCompile-0u9c1c'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f5413.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.0.2+995a3dce4 for .NET Framework
+        Build started 10/11/2025 18:17:59.
+        
+        Project "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0u9c1c\\cmTC_f5413.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0u9c1c\\Debug\\".
+          Creating directory "cmTC_f5413.dir\\Debug\\cmTC_f5413.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f5413.dir\\Debug\\cmTC_f5413.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f5413.dir\\Debug\\cmTC_f5413.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_f5413.dir\\Debug\\\\" /Fd"cmTC_f5413.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35717 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_f5413.dir\\Debug\\\\" /Fd"cmTC_f5413.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0u9c1c\\Debug\\cmTC_f5413.exe" /INCREMENTAL /ILK:"cmTC_f5413.dir\\Debug\\cmTC_f5413.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/CMakeScratch/TryCompile-0u9c1c/Debug/cmTC_f5413.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/CMakeScratch/TryCompile-0u9c1c/Debug/cmTC_f5413.lib" /MACHINE:X64  /machine:x64 cmTC_f5413.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_f5413.vcxproj -> C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0u9c1c\\Debug\\cmTC_f5413.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_f5413.dir\\Debug\\cmTC_f5413.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f5413.dir\\Debug\\cmTC_f5413.tlog\\cmTC_f5413.lastbuildstate".
+        Done Building Project "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0u9c1c\\cmTC_f5413.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35717.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:2180 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython3.cmake:671 (include)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:250 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:81 (include)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.15"
+      - "python3"
+      - "python"
+      - "ipy3.15"
+      - "ipy3"
+      - "ipy64"
+      - "ipy32"
+      - "ipy"
+      - "ipy.exe"
+    candidate_directories:
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "/REGISTRY-NOTFOUND/Scripts/"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/"
+      - "/REGISTRY-NOTFOUND/net45/"
+      - "/REGISTRY-NOTFOUND/net40/"
+      - "/REGISTRY-NOTFOUND/"
+    searched_directories:
+      - "/REGISTRY-NOTFOUND/bin/python3.15.com"
+      - "/REGISTRY-NOTFOUND/bin/python3.15.exe"
+      - "/REGISTRY-NOTFOUND/bin/python3.15"
+      - "/REGISTRY-NOTFOUND/bin/python3.com"
+      - "/REGISTRY-NOTFOUND/bin/python3.exe"
+      - "/REGISTRY-NOTFOUND/bin/python3"
+      - "/REGISTRY-NOTFOUND/bin/python.com"
+      - "/REGISTRY-NOTFOUND/bin/python.exe"
+      - "/REGISTRY-NOTFOUND/bin/python"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.15.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.15.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.15"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy3"
+      - "/REGISTRY-NOTFOUND/bin/ipy64.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy64"
+      - "/REGISTRY-NOTFOUND/bin/ipy32.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy32"
+      - "/REGISTRY-NOTFOUND/bin/ipy.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.15.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.15.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.15"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3"
+      - "/REGISTRY-NOTFOUND/Scripts/python.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.15.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.15.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.15"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python3.15.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python3.15.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python3.15"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python3.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python3.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python3"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/python"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy3.15.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy3.15.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy3.15"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy3.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy3"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy64.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy64"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy32.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy32"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.15/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3.15.com"
+      - "/REGISTRY-NOTFOUND/net45/python3.15.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3.15"
+      - "/REGISTRY-NOTFOUND/net45/python3.com"
+      - "/REGISTRY-NOTFOUND/net45/python3.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3"
+      - "/REGISTRY-NOTFOUND/net45/python.com"
+      - "/REGISTRY-NOTFOUND/net45/python.exe"
+      - "/REGISTRY-NOTFOUND/net45/python"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.15.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.15.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.15"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy3"
+      - "/REGISTRY-NOTFOUND/net45/ipy64.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy64"
+      - "/REGISTRY-NOTFOUND/net45/ipy32.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy32"
+      - "/REGISTRY-NOTFOUND/net45/ipy.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3.15.com"
+      - "/REGISTRY-NOTFOUND/net40/python3.15.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3.15"
+      - "/REGISTRY-NOTFOUND/net40/python3.com"
+      - "/REGISTRY-NOTFOUND/net40/python3.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3"
+      - "/REGISTRY-NOTFOUND/net40/python.com"
+      - "/REGISTRY-NOTFOUND/net40/python.exe"
+      - "/REGISTRY-NOTFOUND/net40/python"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.15.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.15.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.15"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy3"
+      - "/REGISTRY-NOTFOUND/net40/ipy64.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy64"
+      - "/REGISTRY-NOTFOUND/net40/ipy32.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy32"
+      - "/REGISTRY-NOTFOUND/net40/ipy.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe"
+      - "/REGISTRY-NOTFOUND/python3.15.com"
+      - "/REGISTRY-NOTFOUND/python3.15.exe"
+      - "/REGISTRY-NOTFOUND/python3.15"
+      - "/REGISTRY-NOTFOUND/python3.com"
+      - "/REGISTRY-NOTFOUND/python3.exe"
+      - "/REGISTRY-NOTFOUND/python3"
+      - "/REGISTRY-NOTFOUND/python.com"
+      - "/REGISTRY-NOTFOUND/python.exe"
+      - "/REGISTRY-NOTFOUND/python"
+      - "/REGISTRY-NOTFOUND/ipy3.15.com"
+      - "/REGISTRY-NOTFOUND/ipy3.15.exe"
+      - "/REGISTRY-NOTFOUND/ipy3.15"
+      - "/REGISTRY-NOTFOUND/ipy3.com"
+      - "/REGISTRY-NOTFOUND/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/ipy3"
+      - "/REGISTRY-NOTFOUND/ipy64.com"
+      - "/REGISTRY-NOTFOUND/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/ipy64"
+      - "/REGISTRY-NOTFOUND/ipy32.com"
+      - "/REGISTRY-NOTFOUND/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/ipy32"
+      - "/REGISTRY-NOTFOUND/ipy.com"
+      - "/REGISTRY-NOTFOUND/ipy.exe"
+      - "/REGISTRY-NOTFOUND/ipy"
+      - "/REGISTRY-NOTFOUND/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/ipy.exe"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\sasak\\AppData\\Local\\PowerToys\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.2.4\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/LibrarySystem"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/LibrarySystem"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:2180 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython3.cmake:671 (include)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:250 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:81 (include)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.13"
+      - "python3"
+      - "python"
+      - "ipy3.13"
+      - "ipy3"
+      - "ipy64"
+      - "ipy32"
+      - "ipy"
+      - "ipy.exe"
+    candidate_directories:
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "/REGISTRY-NOTFOUND/Scripts/"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/"
+      - "/REGISTRY-NOTFOUND/net45/"
+      - "/REGISTRY-NOTFOUND/net40/"
+      - "/REGISTRY-NOTFOUND/"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/"
+    searched_directories:
+      - "/REGISTRY-NOTFOUND/bin/python3.13.com"
+      - "/REGISTRY-NOTFOUND/bin/python3.13.exe"
+      - "/REGISTRY-NOTFOUND/bin/python3.13"
+      - "/REGISTRY-NOTFOUND/bin/python3.com"
+      - "/REGISTRY-NOTFOUND/bin/python3.exe"
+      - "/REGISTRY-NOTFOUND/bin/python3"
+      - "/REGISTRY-NOTFOUND/bin/python.com"
+      - "/REGISTRY-NOTFOUND/bin/python.exe"
+      - "/REGISTRY-NOTFOUND/bin/python"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.13.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.13.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.13"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy3"
+      - "/REGISTRY-NOTFOUND/bin/ipy64.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy64"
+      - "/REGISTRY-NOTFOUND/bin/ipy32.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy32"
+      - "/REGISTRY-NOTFOUND/bin/ipy.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.13.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.13.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.13"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3"
+      - "/REGISTRY-NOTFOUND/Scripts/python.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.13.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.13.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.13"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/python3.13.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/python3.13.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/python3.13"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/python3.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/python3.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/python3"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/python.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/python.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/python"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/ipy3.13.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/ipy3.13.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/ipy3.13"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/ipy3.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/ipy3"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/ipy64.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/ipy64"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/ipy32.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/ipy32"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/ipy.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/ipy.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/ipy"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.13/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3.13.com"
+      - "/REGISTRY-NOTFOUND/net45/python3.13.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3.13"
+      - "/REGISTRY-NOTFOUND/net45/python3.com"
+      - "/REGISTRY-NOTFOUND/net45/python3.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3"
+      - "/REGISTRY-NOTFOUND/net45/python.com"
+      - "/REGISTRY-NOTFOUND/net45/python.exe"
+      - "/REGISTRY-NOTFOUND/net45/python"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.13.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.13.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.13"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy3"
+      - "/REGISTRY-NOTFOUND/net45/ipy64.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy64"
+      - "/REGISTRY-NOTFOUND/net45/ipy32.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy32"
+      - "/REGISTRY-NOTFOUND/net45/ipy.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3.13.com"
+      - "/REGISTRY-NOTFOUND/net40/python3.13.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3.13"
+      - "/REGISTRY-NOTFOUND/net40/python3.com"
+      - "/REGISTRY-NOTFOUND/net40/python3.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3"
+      - "/REGISTRY-NOTFOUND/net40/python.com"
+      - "/REGISTRY-NOTFOUND/net40/python.exe"
+      - "/REGISTRY-NOTFOUND/net40/python"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.13.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.13.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.13"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy3"
+      - "/REGISTRY-NOTFOUND/net40/ipy64.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy64"
+      - "/REGISTRY-NOTFOUND/net40/ipy32.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy32"
+      - "/REGISTRY-NOTFOUND/net40/ipy.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe"
+      - "/REGISTRY-NOTFOUND/python3.13.com"
+      - "/REGISTRY-NOTFOUND/python3.13.exe"
+      - "/REGISTRY-NOTFOUND/python3.13"
+      - "/REGISTRY-NOTFOUND/python3.com"
+      - "/REGISTRY-NOTFOUND/python3.exe"
+      - "/REGISTRY-NOTFOUND/python3"
+      - "/REGISTRY-NOTFOUND/python.com"
+      - "/REGISTRY-NOTFOUND/python.exe"
+      - "/REGISTRY-NOTFOUND/python"
+      - "/REGISTRY-NOTFOUND/ipy3.13.com"
+      - "/REGISTRY-NOTFOUND/ipy3.13.exe"
+      - "/REGISTRY-NOTFOUND/ipy3.13"
+      - "/REGISTRY-NOTFOUND/ipy3.com"
+      - "/REGISTRY-NOTFOUND/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/ipy3"
+      - "/REGISTRY-NOTFOUND/ipy64.com"
+      - "/REGISTRY-NOTFOUND/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/ipy64"
+      - "/REGISTRY-NOTFOUND/ipy32.com"
+      - "/REGISTRY-NOTFOUND/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/ipy32"
+      - "/REGISTRY-NOTFOUND/ipy.com"
+      - "/REGISTRY-NOTFOUND/ipy.exe"
+      - "/REGISTRY-NOTFOUND/ipy"
+      - "/REGISTRY-NOTFOUND/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/ipy.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/python3.13.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/python3.13.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/python3.13"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/python3.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/python3.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/python3"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/python.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/python.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/python"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/ipy3.13.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/ipy3.13.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/ipy3.13"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/ipy3.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/ipy3.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/ipy3"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/ipy64.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/ipy64.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/ipy64"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/ipy32.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/ipy32.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/ipy32"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/ipy.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/ipy.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/ipy"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/ipy.exe.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/bin/ipy.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/python3.13.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/python3.13.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/python3.13"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/python3.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/python3.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/python3"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/python.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/python.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/python"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/ipy3.13.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/ipy3.13.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/ipy3.13"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/ipy3.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/ipy3.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/ipy3"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/ipy64.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/ipy64.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/ipy64"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/ipy32.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/ipy32.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/ipy32"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/ipy.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/ipy.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/ipy"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/ipy.exe.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/Scripts/ipy.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/python3.13.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/python3.13.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/python3.13"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/python3.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/python3.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/python3"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/python.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/python.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/python"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/ipy3.13.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/ipy3.13.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/ipy3.13"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/ipy3.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/ipy3.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/ipy3"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/ipy64.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/ipy64.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/ipy64"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/ipy32.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/ipy32.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/ipy32"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/ipy.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/ipy.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/ipy"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/ipy.exe.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/share/ironpython3.13/ipy.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/python3.13.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/python3.13.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/python3.13"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/python3.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/python3.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/python3"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/python.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/python.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/python"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/ipy3.13.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/ipy3.13.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/ipy3.13"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/ipy3.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/ipy3.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/ipy3"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/ipy64.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/ipy64.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/ipy64"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/ipy32.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/ipy32.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/ipy32"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/ipy.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/ipy.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/ipy"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/ipy.exe.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net45/ipy.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/python3.13.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/python3.13.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/python3.13"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/python3.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/python3.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/python3"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/python.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/python.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/python"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/ipy3.13.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/ipy3.13.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/ipy3.13"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/ipy3.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/ipy3.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/ipy3"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/ipy64.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/ipy64.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/ipy64"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/ipy32.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/ipy32.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/ipy32"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/ipy.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/ipy.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/ipy"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/ipy.exe.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/net40/ipy.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/python3.13.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/python3.13.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/python3.13"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/python3.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/python3.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/python3"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/python.com"
+    found: "C:/Users/sasak/AppData/Local/Programs/Python/Python313/python.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\sasak\\AppData\\Local\\PowerToys\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.2.4\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/LibrarySystem"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/LibrarySystem"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:2437 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython3.cmake:671 (include)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:250 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:81 (include)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.13_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/"
+    searched_directories:
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/python3.13_d.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/python3.13_d.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/python3.13_d"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/python3_d.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/python3_d.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/python3_d"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/python_d.com"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/python_d.exe"
+      - "C:/Users/sasak/AppData/Local/Programs/Python/Python313/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\sasak\\AppData\\Local\\PowerToys\\"
+        - "C:\\Users\\sasak\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\JetBrains\\CLion 2025.2.4\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2025.2.4\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/LibrarySystem"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/LibrarySystem"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/CMakeScratch/TryCompile-6dz1vm"
+      binary: "C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/CMakeScratch/TryCompile-6dz1vm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/CMakeScratch/TryCompile-6dz1vm'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_631fd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.0.2+995a3dce4 for .NET Framework
+        Build started 10/11/2025 18:18:01.
+        
+        Project "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dz1vm\\cmTC_631fd.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dz1vm\\Debug\\".
+          Creating directory "cmTC_631fd.dir\\Debug\\cmTC_631fd.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_631fd.dir\\Debug\\cmTC_631fd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_631fd.dir\\Debug\\cmTC_631fd.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_631fd.dir\\Debug\\\\" /Fd"cmTC_631fd.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dz1vm\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35717 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_631fd.dir\\Debug\\\\" /Fd"cmTC_631fd.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dz1vm\\src.c"
+          src.c
+        C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dz1vm\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dz1vm\\cmTC_631fd.vcxproj]
+        Done Building Project "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dz1vm\\cmTC_631fd.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dz1vm\\cmTC_631fd.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dz1vm\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dz1vm\\cmTC_631fd.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.30
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/CMakeScratch/TryCompile-5qnx35"
+      binary: "C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/CMakeScratch/TryCompile-5qnx35"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/CMakeScratch/TryCompile-5qnx35'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_46226.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.0.2+995a3dce4 for .NET Framework
+        Build started 10/11/2025 18:18:01.
+        
+        Project "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5qnx35\\cmTC_46226.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5qnx35\\Debug\\".
+          Creating directory "cmTC_46226.dir\\Debug\\cmTC_46226.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_46226.dir\\Debug\\cmTC_46226.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_46226.dir\\Debug\\cmTC_46226.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_46226.dir\\Debug\\\\" /Fd"cmTC_46226.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5qnx35\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35717 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_46226.dir\\Debug\\\\" /Fd"cmTC_46226.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5qnx35\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5qnx35\\Debug\\cmTC_46226.exe" /INCREMENTAL /ILK:"cmTC_46226.dir\\Debug\\cmTC_46226.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/CMakeScratch/TryCompile-5qnx35/Debug/cmTC_46226.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/CMakeScratch/TryCompile-5qnx35/Debug/cmTC_46226.lib" /MACHINE:X64  /machine:x64 cmTC_46226.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5qnx35\\cmTC_46226.vcxproj]
+        Done Building Project "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5qnx35\\cmTC_46226.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5qnx35\\cmTC_46226.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5qnx35\\cmTC_46226.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.40
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/CMakeScratch/TryCompile-fvqzx2"
+      binary: "C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/CMakeScratch/TryCompile-fvqzx2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/CMakeScratch/TryCompile-fvqzx2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_50033.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.0.2+995a3dce4 for .NET Framework
+        Build started 10/11/2025 18:18:02.
+        
+        Project "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fvqzx2\\cmTC_50033.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fvqzx2\\Debug\\".
+          Creating directory "cmTC_50033.dir\\Debug\\cmTC_50033.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_50033.dir\\Debug\\cmTC_50033.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_50033.dir\\Debug\\cmTC_50033.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_50033.dir\\Debug\\\\" /Fd"cmTC_50033.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fvqzx2\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35717 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_50033.dir\\Debug\\\\" /Fd"cmTC_50033.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fvqzx2\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fvqzx2\\Debug\\cmTC_50033.exe" /INCREMENTAL /ILK:"cmTC_50033.dir\\Debug\\cmTC_50033.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/CMakeScratch/TryCompile-fvqzx2/Debug/cmTC_50033.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/sasak/Documents/Lab1UnitTest/LAb1/build/CMakeFiles/CMakeScratch/TryCompile-fvqzx2/Debug/cmTC_50033.lib" /MACHINE:X64  /machine:x64 cmTC_50033.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fvqzx2\\cmTC_50033.vcxproj]
+        Done Building Project "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fvqzx2\\cmTC_50033.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fvqzx2\\cmTC_50033.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\sasak\\Documents\\Lab1UnitTest\\LAb1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fvqzx2\\cmTC_50033.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.44
+        
+      exitCode: 1
+...
