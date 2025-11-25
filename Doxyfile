@@ -1,0 +1,30 @@
+# Основні налаштування
+PROJECT_NAME           = "Lab1UnitTest"
+PROJECT_BRIEF          = "Система керування бібліотекою з юніт-тестами"
+
+# КУДА класть результат
+OUTPUT_DIRECTORY       = docs
+
+# Вхідні файли
+INPUT                  = .
+RECURSIVE              = YES
+FILE_PATTERNS          = *.h *.hpp *.cpp
+
+# Мова
+OUTPUT_LANGUAGE        = Ukrainian
+
+# HTML-документація
+GENERATE_HTML          = YES
+HTML_OUTPUT            = .
+
+GENERATE_LATEX         = NO
+
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = NO
+
+HIDE_UNDOC_MEMBERS     = NO
+HIDE_UNDOC_CLASSES     = NO
+
+GENERATE_TREEVIEW      = YES
+FULL_SIDEBAR           = YES
