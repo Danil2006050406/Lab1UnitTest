@@ -1,27 +1,49 @@
 #pragma once
-#include <vector>
-#include <string>
 #include "Book.h"
-#include "User.h"
-#include "Loan.h"
+#include <string>
+#include <optional>
 
-class Library {
-private:
-    std::vector<Book> books;
-    std::vector<Reader> readers;
-    std::vector<Loan> loans;
-
+/**
+ * @brief Запис про видачу книги читачу.
+ *
+ * Містить інформацію про книгу, читача та статус повернення.
+ */
+class Loan {
 public:
-    void addBook(const Book& book);
-    void addReader(const Reader& reader);
+    /**
+     * @brief Створює новий запис про видачу.
+     * @param book Книга, яку видають.
+     * @param readerId Ідентифікатор читача.
+     */
+    Loan(const Book& book, const std::string& readerId);
 
-    Book* findBookByISBN(const std::string& isbn);
-    Reader* findReaderById(const std::string& id);
+    /**
+     * @brief Позначає, що книга повернена.
+     *
+     * @throws std::logic_error Якщо книга вже була повернена раніше.
+     */
+    void returnBook();
 
-    bool issueBook(const std::string& isbn, const std::string& readerId);
-    bool returnBook(const std::string& isbn, const std::string& readerId);
+    /**
+     * @brief Перевіряє, чи книга вже повернена.
+     * @return true, якщо книга повернена, false інакше.
+     */
+    bool isReturned() const;
 
-    void listBooks() const;
-    void listReaders() const;
-    void listLoans() const;
+    /**
+     * @brief Повертає ідентифікатор читача.
+     * @return Рядок із ID читача.
+     */
+    std::string getReaderId() const;
+
+    /**
+     * @brief Повертає видану книгу.
+     * @return Константне посилання на книгу.
+     */
+    const Book& getBook() const;
+
+private:
+    Book book_;
+    std::string readerId_;
+    bool returned_ = false;
 };
