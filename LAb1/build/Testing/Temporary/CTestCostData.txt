@@ -1,0 +1,16 @@
+BookTest.AvailabilityAndToggle 1 0.0169709
+BookTest.TitleMatching 1 0.0142642
+BookTest.OldEditionCheck 1 0.019312
+EBookTest.BasicFunctionality 1 0.0173197
+ReaderTest.BorrowDuplicatePrevention 1 0.0146699
+ReaderTest.ReturnBookSemantics 1 0.0197964
+LibraryTest.AddAndFindEntities 1 0.0156571
+LibraryTest.IssueBookSuccess 1 0.01554
+LibraryTest.IssueBookMissingEntities 1 0.0164723
+LibraryTest.IssueBookNotAvailableOrDuplicate 1 0.0149119
+LibraryTest.ReturnBookSuccess 1 0.0155099
+LibraryTest.ReturnBookReaderDoesNotHave 1 0.0179227
+LoanTest.DaysLeftFuture 1 0.0181153
+LoanTest.OverdueAndReturned 1 0.0182638
+LibraryUtilsTest.IssueBookToReader 1 0.0163405
+---

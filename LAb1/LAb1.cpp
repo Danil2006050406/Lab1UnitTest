@@ -17,7 +17,11 @@ void loadBooksFromFile(Library& lib, const std::string& filename) {
         getline(ss, author, ';');
         getline(ss, isbn, ';');
         ss >> year;
+<<<<<<< HEAD
         ss.ignore(); 
+=======
+        ss.ignore(); // skip delimiter
+>>>>>>> 92840df9e87a9a7efd417d6bf0ee0e70cb849c1a
         ss >> copies;
         lib.addBook(Book(title, author, isbn, year, copies));
     }
