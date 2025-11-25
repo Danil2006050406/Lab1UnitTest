@@ -59,4 +59,11 @@ git branch feature/unit-tests
 git checkout feature/unit-tests
 git push -u origin feature/unit-tests
 git merge feature/unit-tests
+* * *
+## Documentation
 
+Автоматично згенеровану документацію до проєкту можна переглянути за посиланням (GitHub Pages):
+
+> https://danil2006050406.github.io/Lab1UnitTest/
+
+Документація створюється з коментарів у форматі Doxygen під час CI-пайплайну GitHub Actions (workflow `docs.yml`).
